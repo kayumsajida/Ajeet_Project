@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
-            <footer className="bg-neutral px-4 xl:px-20 p-10">
+            <footer className="bg-neutral px-4 lg:px-0 pt-15 pb-15">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap lg:flex-nowrap gap-5">
                         <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/3 xl:w-1/3">  
-                            <img src="src/assets/images/logo.png" alt="Background" className="h-13 mb-5" />                      
+                            <h2 className="text-white text-2xl mb-7 font-bold">Frontier Asia Capital</h2>
                             <p className="text-neutral-300 font-semibold">
                                 What you do with your money today can change how you live tomorrow. That’s the power of investing right. We have built InCred Money to give everyone a chance to do that.
                             </p>
