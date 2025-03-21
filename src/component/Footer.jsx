@@ -6,41 +6,44 @@ const Footer = () => {
             <footer className="bg-neutral px-4 lg:px-0 pt-15 pb-15">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap lg:flex-nowrap gap-5">
-                        <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/3 xl:w-1/3">  
-                            <h2 className="text-white text-2xl mb-7 font-bold">Frontier Asia Capital</h2>
+                        <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/3 xl:w-1/3">
+                            <Link to="#" className="inline-flex items-center">
+                                <img src="src/assets/images/logo.svg" alt="" />
+                                <span className="text-2xl font-bold ms-2 text-white">Frontier Asia Capital</span>
+                            </Link>
                             <p className="text-neutral-300 font-semibold">
                                 What you do with your money today can change how you live tomorrow. That’s the power of investing right. We have built InCred Money to give everyone a chance to do that.
                             </p>
                         </div>
                         <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/4 xl:w-1/3">
-                           <h2 className="text-sm text-white mb-8 lg:text-lg font-medium">InCred Money</h2>
-                           <div className="flex flex-col gap-4">
-                            <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">About us</Link>
-                            <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Media & Press</Link>
-                            <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Career</Link>
-                            <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Important Announcement</Link>
-                            <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Blogs</Link>
-                           </div>
-                        </div>
-                        <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/4 xl:w-1/3">                            
-                            <h2 className="text-sm text-white mb-8 lg:text-lg font-medium">Products</h2>
+                            <h2 className="text-sm text-white mb-8 lg:text-lg font-medium">InCred Money</h2>
                             <div className="flex flex-col gap-4">
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Unlisted Shares</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Bonds</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">FDs</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Refer</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">MLDs</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">About us</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Media & Press</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Career</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Important Announcement</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Blogs</Link>
                             </div>
                         </div>
-                        <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/4 xl:w-1/3">                            
+                        <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/4 xl:w-1/3">
+                            <h2 className="text-sm text-white mb-8 lg:text-lg font-medium">Products</h2>
+                            <div className="flex flex-col gap-4">
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Unlisted Shares</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Bonds</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">FDs</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Refer</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">MLDs</Link>
+                            </div>
+                        </div>
+                        <div className="w-full mb-3 lg:mb-0 xl:mb-0 lg:w-1/4 xl:w-1/3">
                             <h2 className="text-sm text-white mb-8 lg:text-lg font-medium">Quick Link</h2>
                             <div className="flex flex-col gap-4">
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Calculator</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Terms & Conditions</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Privacy Policy</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Investor Relations</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Contact Us</Link>
-                                <Link to="#" className="text-neutral-300 hover:text-white transition duration-500">Disclaimer</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Calculator</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Terms & Conditions</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Privacy Policy</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Investor Relations</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Contact Us</Link>
+                                <Link to="#" className="text-neutral-300 hover:text-primary transition duration-500">Disclaimer</Link>
                             </div>
                         </div>
                     </div>
@@ -49,10 +52,10 @@ const Footer = () => {
                             © 2022-2024 InCred Money, All rights reserved. Built with love in India.
                         </div>
                         <div className="flex flex-row gap-2">
-                            <Link to="#" className="border border-neutral-300/25 p-2 px-10 rounded-full text-neutral-300 font-medium hover:bg-white transition duration-500 hover:text-black">
+                            <Link to="#" className="border border-neutral-300/25 p-2 px-10 rounded-full text-neutral-300 font-medium hover:bg-primary hover:border-primary transition duration-500 hover:text-white">
                                 IOS
                             </Link>
-                            <Link to="#" className="border border-neutral-300/25 p-2 px-10 rounded-full text-neutral-300 font-medium hover:bg-white transition duration-500 hover:text-black">
+                            <Link to="#" className="border border-neutral-300/25 p-2 px-10 rounded-full text-neutral-300 font-medium hover:bg-primary hover:border-primary transition duration-500 hover:text-white">
                                 Android
                             </Link>
                         </div>

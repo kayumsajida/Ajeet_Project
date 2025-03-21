@@ -8,20 +8,20 @@
 	<style>
 		tspan { white-space:pre } 
 		.s0 { fill: #cfe7e0 } 
-		.s1 { fill: #fba92d } 
-		.s2 { fill: #e38907 } 
+		.s1 { fill: #6f49ff } 
+		.s2 { fill: #523ab4 } 
 		.s3 { fill: #2fc3b0 } 
 		.s4 { fill: #34dcc7 } 
 		.s5 { fill: #206969 } 
 		.s6 { fill: #eef3d9 } 
 		.s7 { fill: #fe514a } 
-		.s8 { fill: none;stroke: #206969;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 2.8 } 
-		.s9 { fill: none;stroke: #fba92d;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 22.1 } 
-		.s10 { fill: none;stroke: #2fc3b0;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 22.1 } 
-		.s11 { fill: none;stroke: #b5dae6;stroke-miterlimit:10;stroke-width: 2.8 } 
-		.s12 { fill: none;stroke: #206969;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 2.6 } 
-		.s13 { fill: none;stroke: #fba92d;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 19.8 } 
-		.s14 { fill: none;stroke: #206969;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 4 } 
+		.s8 { fill: none;stroke: #206969;strokeLinecap: round;stroke-miterlimit:10;: 2.8 } 
+		.s9 { fill: none;stroke: #6f49ff;strokeLinecap: round;stroke-miterlimit:10;strokeWidth: 22.1 } 
+		.s10 { fill: none;stroke: #2fc3b0;strokeLinecap: round;stroke-miterlimit:10;strokeWidth: 22.1 } 
+		.s11 { fill: none;stroke: #b5dae6;stroke-miterlimit:10;strokeWidth: 2.8 } 
+		.s12 { fill: none;stroke: #206969;strokeLinecap: round;stroke-miterlimit:10;strokeWidth: 2.6 } 
+		.s13 { fill: none;stroke: #6f49ff;strokeLinecap: round;stroke-miterlimit:10;strokeWidth: 19.8 } 
+		.s14 { fill: none;stroke: #206969;strokeLinecap: round;stroke-miterlimit:10;strokeWidth: 4 } 
 		.s15 { fill: #021621 } 
 		.s16 { fill: #04283d } 
 		.s17 { fill: #cb5c37 } 

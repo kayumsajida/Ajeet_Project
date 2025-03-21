@@ -7,19 +7,19 @@ const ShareListed = () => {
                         <h2 className="text-2xl lg:text-4xl font-medium mb-5">Unlisted Shares</h2>
                         <div className="flex items-center pb-3 leading-8 text-lg text-black font-medium">
                             <span className="mr-3">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#0F1016" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#0F1016" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                             </span>
                             Start investing with just 1 share
                         </div>
                         <div className="flex items-center pb-3 leading-8 text-lg text-black font-medium">
                             <span className="mr-3">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#0F1016" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#0F1016" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                             </span>
                             No commissions, complete transparency
                         </div>
                         <div className="flex items-center pb-3 leading-8 text-lg text-black font-medium">
                             <span className="mr-3">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#0F1016" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#0F1016" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                             </span>
                             No commissions, complete transparency
                         </div>
@@ -53,11 +53,11 @@ const ShareListed = () => {
                         </div>
                     </div>                                     
                 </div>
-                <div className="w-full flex flex-wrap items-center justify-between p-10 rounded-b-2xl bg-gray-300">
-                    <div className="text-2xl font-medium mb-3">
+                <div className="w-full flex flex-wrap items-center justify-between p-10 rounded-b-2xl bg-gradient-to-tr from-gradientprimary to-gradientsecondary">
+                    <div className="text-2xl font-medium mb-3 text-white">
                         Trusted by over 1,50,000 users
                     </div>
-                    <a href="#" className="w-full text-center lg:w-72 bg-amber-600 p-3 px-10 text-white rounded-full hover:bg-amber-800 transition duration-500">Explore unlisted shares</a>
+                    <a href="#" className="dark-btn w-full text-center lg:w-72 p-3 px-10 text-white rounded-fulltransition duration-500">Explore unlisted shares</a>
                 </div>   
             </section>
         </>

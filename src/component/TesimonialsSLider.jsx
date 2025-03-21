@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const testimonials = [
   {
@@ -39,7 +40,7 @@ const TestimonialSlider = () => {
         {/* Left Arrow */}
         <button
           onClick={scrollPrev}
-          className="absolute left-2 lg:left-0 z-10 top-1/2 cursor-pointer -translate-y-1/2 p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition"
+          className="absolute left-2 lg:left-0 z-10 top-1/2 cursor-pointer -translate-y-1/2 p-2 rounded-full text-white bg-primary hover:bg-primaryhover hover:text-white transition duration-500"
         >
           <ArrowLeft size={24} />
         </button>
@@ -59,16 +60,16 @@ const TestimonialSlider = () => {
         {/* Right Arrow */}
         <button
           onClick={scrollNext}
-          className="absolute right-0 top-1/2 cursor-pointer -translate-y-1/2 p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition"
+          className="absolute right-0 top-1/2 cursor-pointer -translate-y-1/2 p-2 rounded-full text-white bg-primary hover:bg-primaryhover hover:text-white transition duration-500"
         >
           <ArrowRight size={24} />
         </button>
       </div>
 
       {/* CTA Button */}
-      <button className="mt-6 border border-neutral-300 p-3 cursor-pointer font-medium px-10 rounded-full hover:bg-neutral-100 transition duration-500">
+      <Link to="#" className="mt-6 btn-secondary">
         Start investing
-      </button>
+      </Link>
     </div>
   );
 };

@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
 @theme {
-    --color-neutral: #0f1016;    
+    --color-primary:#8263ff;
+    --color-primaryhover:#523ab4;
+    --color-secondary:#9076fe;
+    --color-gradientprimary:#8263ff;
+    --color-gradientsecondary:#9177ff;
+    --color-neutral: #0f1016;
+    --color-darkbtn:#523ab4;
+    --color-darkbtnhover:#2f1b83;
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary hover:bg-primaryhover p-3 px-10 text-center text-white rounded-full transition duration-500
+    }
+    .btn-secondary {
+        @apply border border-neutral-300 text-neutral-500 hover:bg-secondary hover:text-white hover:border-secondary text-center p-3 px-10 rounded-full transition duration-500
+    }
+    .dark-btn {
+        @apply bg-darkbtn hover:bg-darkbtnhover p-3 px-10 text-center text-white rounded-full transition duration-500
+    }
+    .outline-white-btn {
+        @apply border border-white hover:bg-white hover:text-black p-3 px-10 text-center text-white rounded-full transition duration-500
+    }
 }
