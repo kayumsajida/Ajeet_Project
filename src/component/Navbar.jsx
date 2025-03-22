@@ -4,22 +4,35 @@ import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [fixedheader, setFixedHeader] = useState(false);
+
+  const changeBackground = () => {
+    if(window.scrollY >= 50) {
+      setFixedHeader(true)
+    } else {
+      setFixedHeader(false)
+    }
+  }
+
+  window.addEventListener("scroll", changeBackground);
+
+  
 
   return (
-    <nav className="bg-white">
+    <nav className={fixedheader ? "bg-white sticky top-0 z-50 shadow-2xs transition-all duration-500" : "bg-white transition-all duration-500"}>
       <div className="container mx-auto px-4 md:px-6 lg:px-0">
         <div className="flex justify-between items-center py-4">
           <div>
-            <Link to="#" className="inline-flex items-center">
-              <img src="src/assets/images/logo.svg" alt="" />
+            <Link to="/" className="inline-flex items-center">
+              <img src="src/assets/images/logo.svg" alt="Logo" />
               <span className="text-2xl font-bold ms-2">Frontier Asia Capital</span>
             </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8">
-            <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Home</Link>
-            <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Unlisted Shares</Link>
+            <Link to="/" className="text-neutral-600 hover:text-primary transition font-medium">Home</Link>
+            <Link to="/unlisted-share" className="text-neutral-600 hover:text-primary transition font-medium">Unlisted Shares</Link>
             <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">FDs</Link>
             <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Refer</Link>
             <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Learn</Link>
@@ -42,8 +55,8 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden flex flex-col gap-4 pb-4">
-            <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Home</Link>
-            <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Unlisted Shares</Link>
+            <Link to="/" className="text-neutral-600 hover:text-primary transition font-medium">Home</Link>
+            <Link to="/unlisted-share" className="text-neutral-600 hover:text-primary transition font-medium">Unlisted Shares</Link>
             <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">FDs</Link>
             <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Refer</Link>
             <Link to="#" className="text-neutral-600 hover:text-primary transition font-medium">Learn</Link>

@@ -6,6 +6,7 @@ import Footer from './component/Footer';
 import Navbar from './component/Navbar';
 import Login from './component/Login';
 import SignUp from './component/SignUp';
+import UnlistedShare from './component/UnlistedShare';
 
 function App() {
   const location = useLocation();
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />          
         <Route exact path='/login' element={<Login />} />  
         <Route exact path='/signup' element={<SignUp />} />  
+        <Route exact path='/unlisted-share' element={<UnlistedShare />} />
       </Routes>
       {!hideNavandFooter && <Footer />}
     </>

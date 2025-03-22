@@ -6,7 +6,7 @@ const JourneyWealthCreations = [
     { question: "No-cost access to experts", answer: "Speak to our experts at no cost, at every step of your investment journey. They are always reachable, and will also offer critical suggestion proactively" }
 ];
 
-export default function JourneyWealthCreation() {
+export default function JourneyWealthCreation(props) {
     const [openIndex, setOpenIndex] = useState(null);
 
     const toggleJourneyWealthCreation = (index) => {
@@ -18,7 +18,11 @@ export default function JourneyWealthCreation() {
             <div className="container mx-auto mt-10 bg-white px-4 lg:px-0">
                 <div className="text-neutral-400 text-center mb-2">WHY Frontier Asia Capital</div>
                 <h2 className="text-2xl lg:text-4xl font-bold text-center mb-10">                
-                    Your alternate journey to <br/> wealth creation
+                    {props.title || (
+                        <>
+                            Your alternate journey to <br/> wealth creation
+                        </>
+                    )}
                 </h2>
                 <div className="flex flex-wrap items-center justify-between">
                     <div className="w-full lg:w-1/2">
