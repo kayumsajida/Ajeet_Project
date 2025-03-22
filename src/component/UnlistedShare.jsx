@@ -27,9 +27,9 @@ const UnlistedShare = () => {
     return (
         <>
             <div className="pt-20 pb-20">
-                <div className="container mx-auto">
+                <div className="container mx-auto px-4 xl:px-0">
                     <div className="max-w-3xl mx-auto text-center">
-                        <h1 className="text-6xl font-bold mb-4 text-neutral">
+                        <h1 className="text-3xl xl:text-6xl font-bold mb-4 text-neutral">
                             Grow your wealth with Pre-IPO & Unlisted Shares
                         </h1>
                         <p className="text-2xl mb-2">
